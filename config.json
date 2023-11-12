@@ -1,1 +1,48 @@
-
+{
+    "prefix": "+",
+    "token": "MTE3MzAyNTUyNDAwNDY5NjA3NA.GPBd8e.jUBrj-BUlrc5eVEZ_EfE6tg3yYbEk77irirUvM",
+    "ownerID": "769590521328828457",
+    "whiteList": ["769590521328828457"],
+    "youtubeAPIKey": "Your Youtube API Key",
+    "filters": {
+        "bassboost": "Bassboost",
+        "8D": "8D",
+        "vaporwave": "Vaporwave",
+        "nightcore": "Nightcore",
+        "phaser": "Phaser",
+        "tremolo": "Tremolo",
+        "vibrato": "Vibrato",
+        "reverse": "Reverse",
+        "treble": "Treble",
+        "normalizer": "Normalizer",
+        "surrounding": "Surrounding",
+        "pulsator": "Pulsator",
+        "subboost": "Subboost",
+        "karaoke": "Karaoke",
+        "flanger": "Flanger",
+        "gate": "Gate",
+        "haas": "Haas",
+        "mcompand": "Mcompand"
+    },
+    "guilds": [
+        {
+            "guildID": "ID of the server you want configs",
+            "defaultRolesName": ["Optionnal name of roles (case sensitive) you want to set when someone join the server"],
+            "reportLogChannel": "Optionnal ID of the report log channel",
+            "bannedWords": ["Optionnal","list", "of", "words", "that", "the", "bot", "can", "report"],
+            "listeners": [
+                {
+                    "messageID": "ID of the message you want the bot to listen",
+                    "cumulativeRoles": true,
+                    "defaultRoleName": "Name of the role (case sensitive) you want to set by default when the user remove his reactions to the message",
+                    "reactionRole": [
+                        {
+                            "emoji": "ex: 🦄",
+                            "roleName": "name of the role (case sensitive)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
